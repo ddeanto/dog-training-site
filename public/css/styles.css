@@ -16,6 +16,18 @@
   position: absolute;
 }
 
+@media only screen and (max-width: 800px) {
+  #motto-header { font-size:190%;}
+}
+
+@media only screen and (max-width: 660px) {
+  #motto-header { font-size:150%;}
+}
+
+@media only screen and (max-width: 550px) {
+  #motto-header { font-size:110%;}
+}
+
 #motto > #startnow-btn {
   color: blue;
   background-color: white;
@@ -73,4 +85,29 @@ div.cardDD-content-container {
 
 h1.section-heading {
   margin-left: 30px;
+  text-align: center;
+}
+
+/* centered columns styles */
+.row-centered {
+    text-align:center;
+}
+
+.col-centered{
+  float: none;
+  margin: 0 auto;
+}
+
+#about-us p {
+  float: none;
+  margin: 0 auto;
+  text-align: left;
+  padding-left: 3px;
+  padding-right: 3px;
+  max-width: 280px;
+}
+
+
+@media screen and (max-width:650px) {
+  #startnow-btn { display:none; }
 }

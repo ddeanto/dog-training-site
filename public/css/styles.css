@@ -84,7 +84,6 @@ div.cardDD-content-container {
 }
 
 h1.section-heading {
-  margin-left: 30px;
   text-align: center;
 }
 
@@ -110,4 +109,8 @@ h1.section-heading {
 
 @media screen and (max-width:650px) {
   #startnow-btn { display:none; }
+}
+
+#about-us h4 {
+  margin-top: 35px;
 }

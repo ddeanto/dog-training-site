@@ -10,7 +10,7 @@ indexController(app)
 
 app.use('/public', express.static(__dirname + '/public'));
 
-var port = process.env.PORT || 3000
+var port = process.env.PORT || 3001
 console.log('port: ' + port)
 
 var httpServer = require('http').createServer(app);
